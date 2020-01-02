@@ -17,6 +17,7 @@ export default class Product extends Component {
                        onClick={() =>{console.log('added tothe cart')}}>
                            {inCart?(<p className="text-capitalize mb-0" disabled>in cart</p>):(<i className="fa fa-cart-plus"/>)}
                        </button>
+                       {}
                        
                    </div>
                </div>
